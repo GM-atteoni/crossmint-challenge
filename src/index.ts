@@ -6,7 +6,7 @@ import { delay } from "./util/delay";
 
  for (let i = 0; i < goal.length; i++) {
     for (let j = 0; j < goal[i].length; j++) {
-        await delay(2000)
+        await delay(1000)
         placeObject(goal[i][j], i , j)
     }
  }
